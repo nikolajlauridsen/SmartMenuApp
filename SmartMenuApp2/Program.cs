@@ -15,7 +15,7 @@ namespace SmartMenuApp2 {
 
         private void Run() {
             // Make bindings and bind options
-            Bindings binds = new Bindings();             SmartMenu menu = new SmartMenu(binds);              binds.Bind("this", This);             binds.Bind("that", That);             binds.Bind("something", Something);              binds.Bind("another", Another);             binds.Bind("lang", changeLang);              menu.LoadMenu("MenuSpec.txt");             menu.Activate();              void changeLang() {
+            Bindings binds = new Bindings();             SmartMenu menu = new SmartMenu(binds);              binds.Bind("this", This);             binds.Bind("that", That);             binds.Bind("something", Something);             binds.Bind("another", Another);             binds.Bind("lang", changeLang);              menu.LoadMenu("MenuSpec.txt");             menu.Activate();              void changeLang() {
                 Console.Write("Danish or English? (EN for English and DA for Danish): ");
                 string answer = Console.ReadLine();
                 if (answer.ToLower().Trim() == "en") {
