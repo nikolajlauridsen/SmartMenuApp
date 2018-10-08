@@ -1,0 +1,8 @@
+﻿Min fornemme menu
+Indtast et tal fra listen, indtast 0 for at lukke programmet:
+Gør dit;this
+Gør dat;that
+Gør noget;something
+Få svaret på livet, universet og alt;another
+Kvadrer et tal;square
+Skift sprog;lang
